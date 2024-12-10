@@ -1,3 +1,3 @@
 import 'bootstrap'
-import 'admin-lte';
-import { OverlayScrollbars} from 'overlayscrollbars';
+import 'admin-lte'
+import 'overlayscrollbars'

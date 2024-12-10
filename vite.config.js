@@ -8,4 +8,13 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    css: {
+        preprocessorOptions: {
+            scss: {
+                additionalData: '', // Adicione aqui qualquer configuração global para SCSS
+                quietDeps: true, // Suprime os avisos de depreciação de dependências
+            },
+        },
+    },
 });
+
